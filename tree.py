@@ -12,7 +12,7 @@ root.right = Tree()
 root.right.data = 2
 
 class Solution:
-    def isSymmetric(self, root: [Tree]) -> bool:
+    def isSymmetric(self, root) -> bool:
         l,r = root.left, root.right
         print(root)
         deq = deque([l,r])
